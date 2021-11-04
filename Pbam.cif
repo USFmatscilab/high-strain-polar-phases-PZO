@@ -1,0 +1,61 @@
+# CIF file created by ISOCIF, version 2.7.0               
+# Space Group:  55 Pbam       D2h-9
+# Space-group preferences: orthorhombic axes abc
+# Lattice parameters: a=5.80495, b=11.77584, c=8.14410, alpha=90, beta=90, gamma=90
+# Pb1 4g (x,y,0), x=0.70586, y=0.12206
+# Pb2 4h (x,y,1/2), x=0.71541, y=0.12678
+# Zr1 8i (x,y,z), x=0.24385, y=0.125, z=0.24965
+# O5 4e (0,0,z), z=0.22488
+# O4 4f (0,1/2,z), z=0.19695
+# O3 8i (x,y,z), x=0.03751, y=0.26433, z=0.28529
+# O2 4g (x,y,0), x=0.2788, y=0.161
+# O1 4h (x,y,1/2), x=0.30527, y=0.09057
+ 
+data_isocif-output
+_audit_creation_method ISOCIF
+ 
+_cell_length_a    5.80495
+_cell_length_b    11.77584
+_cell_length_c    8.14410
+_cell_angle_alpha 90.00000
+_cell_angle_beta  90.00000
+_cell_angle_gamma 90.00000
+_cell_volume      556.71571
+ 
+_symmetry_space_group_name_H-M "P 21/b 21/a 2/m"
+_symmetry_Int_Tables_number 55
+_space_group.reference_setting '055:-P 2 2ab'
+_space_group.transform_Pp_abc a,b,c;0,0,0
+ 
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 x+1/2,-y+1/2,-z
+3 -x+1/2,y+1/2,-z
+4 -x,-y,z
+5 -x,-y,-z
+6 -x+1/2,y+1/2,z
+7 x+1/2,-y+1/2,z
+8 x,y,-z
+ 
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_label
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_fract_symmform
+Pb1 Pb   4 g 0.70586 0.12206 0.00000 1.00000 Dx,Dy,0  
+Pb2 Pb   4 h 0.71541 0.12678 0.50000 1.00000 Dx,Dy,0  
+Zr1 Zr   8 i 0.24385 0.12500 0.24965 1.00000 Dx,Dy,Dz 
+O5  O    4 e 0.00000 0.00000 0.22488 1.00000 0,0,Dz   
+O4  O    4 f 0.00000 0.50000 0.19695 1.00000 0,0,Dz   
+O3  O    8 i 0.03751 0.26433 0.28529 1.00000 Dx,Dy,Dz 
+O2  O    4 g 0.27880 0.16100 0.00000 1.00000 Dx,Dy,0  
+O1  O    4 h 0.30527 0.09057 0.50000 1.00000 Dx,Dy,0  
+ 
+# end of cif
